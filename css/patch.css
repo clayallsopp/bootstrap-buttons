@@ -1,0 +1,57 @@
+#fork-me {
+    position: fixed; /* options: fixed, absolute */
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    width: 140px;
+    height: 140px;
+    text-indent: -9999px;
+    background-image: url("https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png");
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+    #fork-me {
+        background-image: url("https://github.com/philwareham/github-ribbons-retina/raw/master/fork-me@2x.png") !important;
+        -webkit-background-size: 140px 140px;
+    }
+}
+
+.animate-links a {
+  -o-transition: color .5s;
+  -ms-transition: color .5s;
+  -moz-transition: color .5s;
+  -webkit-transition: color .5s;
+  transition: color .5s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.twitter-follow-button {
+    position: relative;
+    top: 4px;
+}
+
+.post {
+    margin-bottom: 30px;
+    min-height: 200px;
+}
+
+.post img {
+  border: 2px solid white;
+  -moz-box-shadow: 0px 1px 4px black;
+  -webkit-box-shadow: 0px 1px 4px black;
+  box-shadow: 0px 1px 4px black;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='black')";
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='black');
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+}
+
+.post img:hover {
+  -webkit-transform: rotate(3deg) scale(1);
+  -moz-transform: rotate(3deg) scale(1);
+  -o-transform: rotate(3deg) scale(1);
+}

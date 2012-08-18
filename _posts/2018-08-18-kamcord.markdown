@@ -1,0 +1,6 @@
+---
+layout: post
+title: Kamcord
+site_url: http://kamcord.com/
+image: http://i.imgur.com/XdtZZ.png
+---

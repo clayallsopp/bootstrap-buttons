@@ -1,0 +1,6 @@
+---
+layout: post
+title: Cubehero
+site_url: http://cubehero.com/
+image: http://i.imgur.com/nkE6g.png
+---
