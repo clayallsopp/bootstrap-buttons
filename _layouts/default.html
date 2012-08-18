@@ -64,5 +64,8 @@ mixpanel.init("48db9a27474623bb153d50f0b0256eb6");</script><!-- end Mixpanel -->
       </section>
     </div>
 
+    <script>
+    mixpanel.track('page viewed', {'page name' : document.title, 'url' : window.location.pathname});
+    </script>
   </body>
 </html>
